@@ -40,13 +40,13 @@ iCoinbay当前仅支持http方式调用接口，使用Java、C#、Python等语�
 
 nonce:1500793319499   (时间戳)
 
-apiKey:API-12345
+api_key:e8X0c3lB
 
-1、排序拼接请求参数：apiKey=API-12345&nonce=1500793319499;
+1、排序拼接请求参数：api_key=e8X0c3lB&nonce=1500793319499
 
-2、md5加密secretKey(如:KEY-12345)，返回：cbdca791172e07edacddcb2f054c1634
+2、md5加密secretKey(如:e90892f1ce99455c875d28431124a261)，返回：51f975a7a94c808040a6539344cd3940
 
-3、使用hmac_sha256计算签名： sign = hmac_sha256(“api_key=API-12345&nonce=1500793319499”,”cbdca791172e07edacddcb2f054c1634”);
+3、使用hmac_sha256计算签名： sign = hmac_sha256(“api_key=e8X0c3lB&nonce=1500793319499”,”51f975a7a94c808040a6539344cd3940”);
 
-返回：74f2701f587b80477315cfcc7f06723f2bc96d82c6e5c24573a7d47af70fe0a3
+返回：e0e07a6b42ea368254040b30f0f39b84b076d0ad5e32f5a7e1451e5cad0a46a9
 
